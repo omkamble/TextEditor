@@ -200,7 +200,7 @@ class RichEditorExample extends React.Component {
             <div className="RichEditor-root" >
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "20px" }}>
                     <h1> Demo editor by OM Kamble </h1>
-                    <button onClick={this.saveText} style={{ position: "fixed", left: "600px", height: "30px", width: "80px" }}>Save</button>
+                    <button onClick={this.saveText} style={{ height: "30px", width: "80px" }}>Save</button>
                 </div>
                 <div className={className} style={{ height: "60vh", border: "1px solid #666", padding: "10px" }} onClick={this.focus}>
                     <Editor
